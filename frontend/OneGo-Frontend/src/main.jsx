@@ -1,14 +1,10 @@
-import React from 'react'
-import './App.css'
-import Nav from './Components/Nav';
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-function App() {
-  return (
-    
-    <div className='main'>
-      <Nav/>
-    </div>
-  )
-}
-
-export default App
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
