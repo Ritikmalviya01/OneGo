@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import navCSS from './../Components/Nav/Nav.module.css'
+import navCSS from './../../Components/Nav/Nav.module.css'
 
 const Nav = () => {
 
