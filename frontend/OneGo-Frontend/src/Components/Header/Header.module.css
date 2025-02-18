@@ -1,0 +1,39 @@
+.header_wrapper{
+    margin-top: 160px;
+    padding: 0 ;
+
+
+}
+
+.imageContainer{
+    
+    height: 480px;
+    width: 100%;
+    background: url(./../../assets/landscape-Panorama-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px;
+    border-radius: 18px;
+    z-index: 1;
+    position: relative;
+}
+.imageContainer::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .4);
+    z-index: -1;
+}
+
+@keyframes anim_change_img {
+    0%{
+        background: url(./../../assets/landscape-Panorama-02.jpg);
+    }
+    100%{
+        
+    }
+    
+}

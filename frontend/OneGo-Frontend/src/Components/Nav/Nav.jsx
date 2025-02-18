@@ -19,7 +19,6 @@ const Nav = () => {
             <li><a href="#">AI BOT</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
-            <li><a href="#">Search</a></li>
         </ul>
 
         <div className={navCSS.nav_btns}>
@@ -30,6 +29,7 @@ const Nav = () => {
 
             <i className='ri-menu-2-line' onClick={MenHandler} id={navCSS.bars}/>
         </div>
+
     </div>
   )
 }
